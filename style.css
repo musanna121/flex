@@ -78,6 +78,9 @@ header ul li a i{
 .mid .left aside ul li a{
     color: black;
 }
+.mid .left aside ul li a:hover{
+    color: steelblue;
+}
 .mid .left aside ul li a i{
     font-size: 30px;
     padding: 10px;
