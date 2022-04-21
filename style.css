@@ -1,66 +1,113 @@
-/* *{
-    padding: 0;
-    margin: 0;
-    outline: 0;
-    box-sizing: 0;
-} */
 body{
     margin: auto;
-    width: 1320px;
+    width: 1200px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 header{
-    width: 100%;
-    height: 80px;
-    background-color: #9966ff;
-}
-.mid{
+    background-color: steelblue;
     display: flex;
     flex-direction: row;
-    height: 700px;
+    justify-content: space-between;
+    height: 70px;
 }
-.left{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
+header>i{
+    color: white;
+    padding: 26px;
+    font-size:22pt;
+    margin-left: 10px;
+}
+header i:hover{
+    background-color: rgb(16, 35, 51);
+    cursor: pointer;
     
 }
-.hero{
-    height: 40%;
-    background-color: pink;
-}
-aside{
-    height: 60%;
-    background-color: green;
-}
-.right{
-    width: 60%;
+header ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin: 0;
+
 }
-.right main{
-    height: 75%;
-    background-color:yellow;
+header li{
+    list-style-type: none;
+    padding: 22px 30px;
+    transition-delay: 0.3ms;
 }
-.right .extra{
-    height: 25%;
-    background-color: grey;
+header li:hover{
+    background-color:rgb(16, 35, 51) ;
+    cursor: pointer;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;   
+}
+header ul li a i{
+    font-size: 13pt;  
 }
 article{
-    width: 100%;
-    height: 250px;
+    display: flex;
+}
+article .recent{
+    text-align: center;
+
+}
+article .recent h3{
+    background-color: rgb(16, 35, 51);
+    margin: 0;
+    color: white;
+}
+article .img {
     display: flex;
     flex-direction: row;
 }
-article .img{
-    width: 76%;
-    background-color: rgb(5, 36, 5);
+article .img .box{
+    height: 200px;
+    margin: 0;
+    outline: 0;
 }
 article .post{
-    width: 24%;
-    background-color: pink;
+    background-color:rgb(16, 35, 51);
+    color: white;
+}
+article .post h3{
+    margin: 0;
+    padding: 10px;
+}
+article .post p{
+    text-align: justify;
+    padding: 10px;
+    font-size: 10pt;
 }
 footer{
-    height: 80px;
-    background-color: orange;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
 }
+footer p{
+    color: white;
+    margin-left: 10px;
+    
+}
+footer ul{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    margin-bottom: 23px;
+
+
+}
+footer ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+}
+footer ul li:hover{
+    background-color: rgb(16, 35, 51);
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul li a i{}
