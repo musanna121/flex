@@ -45,6 +45,74 @@ header ul li a{
 header ul li a i{
     font-size: 13pt;  
 }
+.mid{
+    display: flex;
+
+}
+.mid .left{}
+.mid .left .hero{
+    width: 450px;
+    height: 400px;
+    background-image: url("./img/yc.jpg");
+    background-size: 500px;
+    background-position-y:-90px;
+}
+.mid .left .hero img{
+    
+}
+.mid .left aside{
+    background-color:antiquewhite;
+}
+.mid .left aside ul{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+.mid .left aside ul li{
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid white;
+}
+.mid .left aside ul li a{
+    color: black;
+}
+.mid .left aside ul li a i{
+    font-size: 30px;
+    padding: 10px;
+}
+.mid .right{
+    background-color:rgb(16, 35, 51); 
+    color: white;
+}
+.mid .right main{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.mid .right main h2{
+    font-size: 19pt;
+}
+.mid .right .extra{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.mid .right .extra .pots{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: steelblue;
+}
+.mid .right .extra .pots p{
+    text-align: left;
+}
+.mid .right .extra .pots i{
+    font-size: 30pt;
+}
 article{
     display: flex;
 }
